@@ -8,6 +8,7 @@ MainScene::MainScene()
     board_.addListener(this);
 }
 
+
 Scene* MainScene::createScene()
 {
     // 'scene' is an autorelease object
