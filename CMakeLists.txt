@@ -5,6 +5,7 @@ project (${APP_NAME})
 
 include(cocos2d/build/BuildHelpers.CMakeLists.txt)
 
+
 option(DEBUG_MODE "Debug or release?" ON)
 
 if(DEBUG_MODE)
